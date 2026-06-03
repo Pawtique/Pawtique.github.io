@@ -29,10 +29,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-
-#konijn img {
-    width: 43%;
-}
 #actief {
     background-color: rgb(15, 139, 143);
 }
@@ -51,4 +47,10 @@ align-items: center;
     color: rgb(54, 52, 50);
     padding: 50px;
     margin-left: 40%;
+}
+#foto1 {
+    width: 500px;
+}
+#foto2 {
+    width: 750px;
 }
