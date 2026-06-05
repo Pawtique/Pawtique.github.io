@@ -28,7 +28,7 @@ body {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 80px;
+padding: 150px;
 }
 .kop-tekst {
     width: 45%;
@@ -43,7 +43,7 @@ padding: 80px;
 }
 .kop-tekst p {
     font-size: 22px;
-    color: rgb(142, 148, 148);
+    color: rgb(107, 107, 107);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #actief {
@@ -52,13 +52,14 @@ padding: 80px;
 .images {
     display: flex;
     gap: 40px;
+    justify-content: right;
+    width: 70%;
 }
 .kat {
-    width: 270px;
-    padding: 20px;
+width: 30%;
 }
 .konijn {
-   width: 420px;
+   width: 45%;
     padding: 20px; 
 }
 .footer {
@@ -66,9 +67,18 @@ padding: 80px;
     justify-content: center;
     padding: 50px;
 }
-.adopteren {
-    background: white;
+.adopteren123 {
+    background: rgba(101, 233, 233, 0.397);
     padding: 30px;
+    width: 250px;
+    color: rgb(107, 107, 107);
+    text-align: center;
+    border-right: 1px solid rgba(108, 194, 209, 0.733);
+}
+.adopteren4 {
+    background: rgba(101, 233, 233, 0.397);
+    padding: 30px;
+    color: rgb(107, 107, 107);
     width: 250px;
     text-align: center;
 
