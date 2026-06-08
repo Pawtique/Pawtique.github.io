@@ -196,6 +196,7 @@ text-align: center;
 }
 .over-ons {
     padding: 65px;
+
 }
 .over-ons h1 { 
     color: rgb(0, 155, 155);
@@ -207,13 +208,15 @@ text-align: center;
     display: flex;
     align-items: center;
     gap: 40px;
+    display: flex;
+    justify-content: space-between;
 }
-.over-ons-in tekstjes {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .over-ons-in img {
     width: 700px;
     border-radius: 25px;
+    display: flex;
+    justify-content: end;
 }
 .stijlen {
     display: flex;
@@ -228,4 +231,7 @@ text-align: center;
     padding: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
+}
+.tekstjes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
