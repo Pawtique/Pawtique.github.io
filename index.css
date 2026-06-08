@@ -68,15 +68,15 @@ width: 30%;
     padding: 50px;
 }
 .adopteren123 {
-    background: rgb(187, 220, 220);
+    background: rgb(159, 203, 203);
     padding: 30px;
     width: 250px;
-    color: rgb(107, 107, 107);
+    color: rgb(93, 93, 93);
     text-align: center;
-    border-right: 1px solid rgba(130, 206, 220, 0.507);
+    border-right: 1px solid rgba(131, 177, 182, 0.507);
 }
 .adopteren4 {
-    background: rgba(187, 220, 220);
+    background: rgb(159, 203, 203);
     padding: 30px;
     color: rgb(107, 107, 107);
     width: 250px;
@@ -108,7 +108,7 @@ text-align: center;
 }
 .dier-kaart {
     background-color: rgba(187, 220, 220);
-    width: 300px;
+    width: 18%;
     border-radius: 20px;
     margin: 20px;
     overflow: hidden;
@@ -189,6 +189,10 @@ text-align: center;
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
+    background-color: rgb(101, 185, 181);
+}
+.contact-box a:hover {
+    background-color: rgb(100, 165, 168);
 }
 .over-ons {
     padding: 65px;
