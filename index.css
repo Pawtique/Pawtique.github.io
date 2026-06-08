@@ -207,20 +207,20 @@ text-align: center;
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-bottom: 48px;
 }
 .over-ons-in tekstjes {
-    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .over-ons-in img {
-    width: 450px;
+    width: 700px;
     border-radius: 25px;
 }
 .stijlen {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    align-items: end;
+    margin-top: 10%;
 }
 .stijl {
     background-color: rgb(187, 220, 220);
