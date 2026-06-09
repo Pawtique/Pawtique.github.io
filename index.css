@@ -198,11 +198,11 @@ text-align: center;
     padding: 65px;
 
 }
-.over-ons h1 { 
-    color: rgb(0, 155, 155);
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.over-ons h1 {
+    color:rgb(100, 165, 168);
     margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .over-ons-in {
     display: flex;
@@ -213,7 +213,7 @@ text-align: center;
 }
 
 .over-ons-in img {
-    width: 700px;
+    width: 550px;
     border-radius: 25px;
     display: flex;
     justify-content: end;
@@ -232,6 +232,14 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
 }
-.tekstjes {
+.intro-box {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(212, 227, 227);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.intro-box h2 {
+    color: rgb(0, 155, 155);
+    margin-bottom: 15px;
 }
