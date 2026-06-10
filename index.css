@@ -29,7 +29,22 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 150px;
+position: relative;
 }
+.poot-rechts1 {
+    position: absolute;
+    top: 220px;
+    right: 100px;
+    width: 180px;
+    transform: rotate(-15deg);
+}
+.poot-links2 {
+    /*de poot precies rechts zetten*/
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 120px;
+    transform: rotate(15deg); }
 .kop-tekst {
     width: 45%;
 }
@@ -68,22 +83,38 @@ width: 30%;
     padding: 50px;
 }
 .adopteren123 {
-    background: rgb(159, 203, 203);
+    background: rgb(100, 165, 168);
     padding: 30px;
     width: 250px;
-    color: rgb(93, 93, 93);
+    color: rgb(0, 0, 0);
     text-align: center;
     border-right: 1px solid rgba(131, 177, 182, 0.507);
 }
 .adopteren4 {
-    background: rgb(159, 203, 203);
+    background: rgb(100, 165, 168);
     padding: 30px;
-    color: rgb(107, 107, 107);
+    color: rgb(0, 0, 0);
     width: 250px;
     text-align: center;
 }
 .dieren {
     padding: 50px;
+    position: relative;
+}
+.poot-links {
+    /*de poot precies rechts zetten*/
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 180px;
+    transform: rotate(15deg);
+}
+.poot-rechts {
+    position: absolute;
+    top: 220px;
+    right: 20px;
+    width: 120px;
+    transform: rotate(-15deg);
 }
 .dieren h1 {
 font-size: 55px;
@@ -200,23 +231,26 @@ text-align: center;
 }
 
 .over-ons h1 {
-    color:rgb(100, 165, 168);
-    margin-bottom: 20px;
+    color:rgb(0, 155, 155);
+    margin-bottom: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 .over-ons-in {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .over-ons-in img {
-    width: 550px;
+    width: 450px;
     border-radius: 25px;
     display: flex;
     justify-content: end;
+    
 }
 .stijlen {
     display: flex;
@@ -234,12 +268,12 @@ text-align: center;
 }
 .intro-box {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(212, 227, 227);
+    background-color: rgb(0, 155, 155);
     padding: 30px;
     border-radius: 20px;
     margin-bottom: 50px;
 }
 .intro-box h2 {
-    color: rgb(0, 155, 155);
+    color: rgb(139, 196, 196);
     margin-bottom: 15px;
 }
