@@ -1,18 +1,30 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 139, 143);
+    padding:15px 30px;
+    position: relative;
+}
 nav ul {
-    list-style-type: none;
-    background-color: rgba(15,139,143);
     display: flex;
     justify-content: center;
+    list-style-type: none;
     padding: 0%;
-    margin: 0%;
+    /*zet de menu in het midden*/
+    margin: 0% auto;
+    gap: 30px;
+    background-color: rgb(15, 139, 143);
+}
+nav ul li {
+    margin: 0;
 }
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 8px;
-    display: block;
-    font-size: 19px;
+    padding: 10px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
     
 }
 nav ul li a:hover {
@@ -24,12 +36,37 @@ body {
     background-size: cover;
     margin: 0%;
 }
+.logo {
+    position: absolute;
+    padding: 0%;
+    margin-left: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.knop {
+    /*maakt het een echt knop*/
+    display: inline-block;
+    background-color: rgb(15, 139, 143);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.knop a:hover {
+    background-color: rgb(78, 119, 119);
+}
 .kop {
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 150px;
 position: relative;
+padding: 80px 100px;
 }
 .poot-rechts1 {
     position: absolute;
@@ -66,36 +103,42 @@ position: relative;
 }
 .images {
     display: flex;
-    gap: 40px;
-    justify-content: right;
-    width: 70%;
+    align-items: center;
+    margin-left: 120px;
 }
 .kat {
-width: 30%;
+width: 420px;
 }
 .konijn {
-   width: 45%;
+   width: 520px;
     padding: 20px; 
 }
-.footer {
+.statistieken {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 80px 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: -150px;
 }
-.adopteren123 {
-    background: rgb(100, 165, 168);
+.kaart {
+    background: #ffffff;
     padding: 30px;
-    width: 250px;
+    width: 220px;
     color: rgb(0, 0, 0);
     text-align: center;
-    border-right: 1px solid rgba(131, 177, 182, 0.507);
+    border-radius: 20px;
 }
-.adopteren4 {
-    background: rgb(100, 165, 168);
-    padding: 30px;
-    color: rgb(0, 0, 0);
-    width: 250px;
-    text-align: center;
+.kaart h2 {
+    font-size: 20px;
+    color: rgb(0, 155, 155);
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kaart p
+{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .dieren {
     padding: 50px;
@@ -207,6 +250,9 @@ text-align: center;
     font-weight:bold ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.terug a:hover {
+    background-color: rgb(14, 126, 130);
+}
 .contact-box{
     background-color: rgb(0, 155, 155);
     color: rgb(255, 255, 255);
@@ -225,55 +271,72 @@ text-align: center;
 .contact-box a:hover {
     background-color: rgb(100, 165, 168);
 }
-.over-ons {
-    padding: 65px;
-
-}
-
-.over-ons h1 {
-    color:rgb(0, 155, 155);
-    margin-bottom: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.ons-verhaal {
     text-align: center;
+    padding: 80px 50px 40px;
 }
-.over-ons-in {
-    display: flex;
-    align-items: center;
-    gap: 60px;
+.ons-verhaal h1{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 139, 143);
+    margin-bottom: 25px;
+}
+.ons-verhaal p{
+    width: 90px;
+    margin: auto;
+    font-size: 22px;
+    color: rgb(80, 80, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*tijdlijn*/
+.tijdlijn {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 80px 0;
     flex-wrap: wrap;
 }
-
-.over-ons-in img {
-    width: 450px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: end;
-    
-}
-.stijlen {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: end;
-    margin-top: 10%;
-}
-.stijl {
-    background-color: rgb(187, 220, 220);
-    text-align: center;
+.stap {
+    background-color: white;
+    width: 250px;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
-}
-.intro-box {
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(0, 155, 155);
+}
+.stap h2 {
+    color: rgb(15, 139, 143);
+}
+.lijn {
+    width: 80px;
+    height: 4px;
+    background-color: rgb(15, 139, 143);
+}
+/*kaarten*/
+.waarden {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+.waarde-kaart {
+    background-color: #ffffff;
+    width: 300px;
     padding: 30px;
     border-radius: 20px;
-    margin-bottom: 50px;
+    text-align: center;
 }
-.intro-box h2 {
-    color: rgb(139, 196, 196);
+.waarde-kaart h2 {
+    color: rgb(15, 139, 143);
     margin-bottom: 15px;
+}
+/*quote*/
+.quote {
+    text-align: center;
+    padding: 80px;
+}
+.quote h2 {
+    font-size: 35px;
+    color: rgb(15, 139, 143);
 }
