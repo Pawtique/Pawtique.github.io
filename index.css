@@ -168,7 +168,7 @@ text-align: center;
 .dieren span {
      color: rgb(15, 139, 143);
 }
-.intro {
+.intro-dier {
     font-size: 22px;
     margin-bottom: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -405,7 +405,6 @@ text-align: center;
     margin-bottom: 25px;
 }
 .contact-info p {
-    line-height: 1.8;
     color: #555;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -429,9 +428,10 @@ text-align: center;
 .contact-formulier {
     width: 50%;
     background-color: #ffffff;
-    padding: 40px;
+    padding: 50px;
     border-radius: 25px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 65px;
 }
 .contact-formulier form {
     display: flex;
