@@ -1,4 +1,5 @@
 nav {
+    /*navigatiebalk bovenaan de pagina*/
     display: flex;
     align-items: center;
     background-color: rgb(15, 139, 143);
@@ -6,6 +7,7 @@ nav {
     position: relative;
 }
 nav ul {
+    /*zet de menu naast elkaar in het midden*/
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -19,6 +21,7 @@ nav ul li {
     margin: 0;
 }
 nav ul li a {
+    /*maakt de link normale tekst*/
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
@@ -31,12 +34,14 @@ nav ul li a:hover {
     background-color: rgba(84, 196, 196, 0.63);
 }
 body {
+    /*website achtergrond*/
     background-color: rgb(223, 242, 242);
     background-attachment: fixed;
     background-size: cover;
     margin: 0%;
 }
 .logo {
+    /*opmaak van de logo linksbovenaan*/
     position: absolute;
     padding: 0%;
     margin-left: 0%;
@@ -61,6 +66,7 @@ body {
     background-color: rgb(78, 119, 119);
 }
 .kop {
+    /*hoofdgedeelte van de homepage*/
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -69,6 +75,7 @@ position: relative;
 padding: 80px 100px;
 }
 .poot-rechts1 {
+    /*zet de poot naar echts*/
     position: absolute;
     top: 220px;
     right: 100px;
@@ -76,13 +83,14 @@ padding: 80px 100px;
     transform: rotate(-15deg);
 }
 .poot-links2 {
-    /*de poot precies rechts zetten*/
+    /*de poot precies links zetten*/
     position: absolute;
     top: 80px;
     left: 40px;
     width: 120px;
     transform: rotate(15deg); }
 .kop-tekst {
+    /*tekstblok van de homepagina*/
     width: 45%;
 }
 .kop-tekst h1 {
@@ -99,21 +107,26 @@ padding: 80px 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #actief {
+    /*de actieve pagina krijgt donkerder kleur*/
     background-color: rgb(14, 126, 130);
 }
 .images {
+    /*container voor afbeeldingen op de homepagina*/
     display: flex;
     align-items: center;
     margin-left: 120px;
 }
 .kat {
+    /*afbeelding van de kat op de homepagina*/
 width: 420px;
 }
 .konijn {
+    /*afbeelding van konij op homepagina*/
    width: 520px;
     padding: 20px; 
 }
 .statistieken {
+    /*rij met statistieken-kaarten*/
     display: flex;
     justify-content: center;
     padding: 80px 40px;
@@ -122,6 +135,7 @@ width: 420px;
     margin-top: -150px;
 }
 .kaart {
+    /*opmaak van een informatiekaart*/
     background: #ffffff;
     padding: 30px;
     width: 220px;
@@ -130,6 +144,7 @@ width: 420px;
     border-radius: 20px;
 }
 .kaart h2 {
+    /*titel van statistiekaart*/
     font-size: 20px;
     color: rgb(0, 155, 155);
     margin-bottom: 10px;
@@ -141,11 +156,12 @@ width: 420px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .dieren {
+    /*de sectie waar alle dieren in staan*/
     padding: 50px;
     position: relative;
 }
 .poot-links {
-    /*de poot precies rechts zetten*/
+    /*de poot precies link zetten*/
     position: absolute;
     top: 80px;
     left: 40px;
@@ -153,6 +169,7 @@ width: 420px;
     transform: rotate(15deg);
 }
 .poot-rechts {
+    /*poot aan rechterkant van pagina*/
     position: absolute;
     top: 220px;
     right: 20px;
@@ -166,9 +183,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 }
 .dieren span {
+    /*gekleurd woord in de titel*/
      color: rgb(15, 139, 143);
 }
 .intro-dier {
+    /*korte introductie boven de dierenkaarten*/
     font-size: 22px;
     margin-bottom: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -176,18 +195,22 @@ text-align: center;
     color: rgba(70, 70, 70, 0.788);
 }
 .dieren-container {
+    /*container voor alle dierenkaarten*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .dier-kaart {
+    /*kaart van een dier*/
     background-color: rgba(187, 220, 220);
     width: 18%;
     border-radius: 20px;
     margin: 20px;
     overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .dier-kaart img {
+    /*afbeelding van een dier in een kaart*/
     width: 100%;
     height: 300px;
 }
@@ -211,24 +234,31 @@ text-align: center;
     color: #098085;
 }
 .profiel {
+    /*pagina indeling van het dierenprofiel*/
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 60px;
+    gap: 40px;
     padding: 50px;
 }
 .profiel img {
-    width: 400px;
+    /*afbeelding van het dier*/
+    width: 550px;
     border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .info-box {
+    /*grote informatie box van het dier */
     background-color: rgb(202, 226, 226);
     padding: 25px;
     border-radius: 20px;
     margin-bottom: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 600px;
 }
 .info {
-    width: 500px;
+    /*container voor alle informatie van het dier*/
+    width: 600px;
 }
 .info h1 {
     font-size: 60px;
@@ -244,9 +274,11 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .terug {
+    /*ruimte rondom de terugknop*/
     margin: 30px;
 }
 .terug a {
+    /*link terug naar alle dieren*/
     text-decoration: none;
     color: rgb(0, 155, 155);
     font-size: 20px;
@@ -257,28 +289,89 @@ text-align: center;
     color: rgb(13, 97, 100);
 }
 .contact-box{
-    background-color: rgb(0, 155, 155);
+    /*contact box om contact op te nemen*/
+    background-color: rgb(131, 172, 172);
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .contact-box a{
+    /*knop in het contactvak*/
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    background-color: rgb(101, 185, 181);
+    background-color: rgb(49, 119, 122);
 }
 .contact-box a:hover {
-    background-color: rgb(100, 165, 168);
+    /*hover effect van het contactknop*/
+    background-color: rgb(56, 149, 152);
+}
+.status{
+    /* label dat laat zien of het dier beschikbaar is*/
+    display: inline-block;
+    background-color: rgb(0, 155, 155);
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.eigenschappen {
+    /*container voor het kenmerken van het dier*/
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.eigenschappen span {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quote-dier {
+    /*citaat van het dier*/
+    margin-top: 25px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(0, 155, 155);
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.extra-info {
+    /*extra informatie van het dier*/
+    margin-top: 25px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.extra-k {
+    /*appart kaartje voor extra informatie*/
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.extra-info h3 {
+    color: rgb(0, 155, 155);
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.extra-info p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .overons {
     /*60px boven en onder en 80px ljnks en rechts*/
+    /*volledige over ons pagina*/
     padding: 60px 80px;
 }
 .intro {
+    /*introductie van de over ons pagina*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -290,9 +383,11 @@ text-align: center;
     text-align: left;
 }
 .zwart {
+    /*het zwarte woord van de introductie tekst*/
     color: black;
 }
 .groen{
+    /*groene woord van de introductie tekst*/
     color: rgb(0, 122, 122);
 }
 .intro h1 {
@@ -301,12 +396,14 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .groene-lijn{
+    /*lijn onder de titel*/
     width: 130px;
     height: 4px;
     background-color: #0f8b8f;
     margin-bottom: 30px;
 }
 .intro p {
+    /*beschrijving na de introductie*/
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* ruimte tussen regels*/
@@ -314,10 +411,13 @@ text-align: center;
     color: #444;
 }
 .intro img {
+    /*afbeelding op de over ons pagina*/
     width: 680px;
     border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .tijdlijn-balk {
+    /*tijdlijn met jaartallen*/
     background-color: #eef7f7;
     border-radius: 25px;
     display: flex;
@@ -325,13 +425,16 @@ text-align: center;
     align-items: center;
     padding: 10px 30px;
     margin-bottom: 60px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .jaar {
+    /*de jaartallen van de tijdlijn*/
     display: flex;
     align-items: center;
     gap: 20px;
 }
 .kalender {
+    /*ronde kalendercirkel in de tijdlijn*/
     width: 70px;
     height: 70px;
     background-color: #0f8b8f;
@@ -344,31 +447,36 @@ text-align: center;
     color: #ffffff;
 }
 .jaar h2 {
+    /*jaartal in de tijdlijn*/
     color: #0f8b8f;
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .jaar p{
+    /*beschrijving bij  het jaartal*/
     margin-top: 5px;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .stippen {
+    /*de stippen tussen de jaartallen*/
     width: 120px;
     /*stippenlijn*/
     border-top: 3px dashed #0f8b8f;
 }
 .kaarten {
+    /*container voor de geschiedeniskaarten*/
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 .kaart {
+    /*geschieddeniskaart bij de tijdlijn*/
     background-color: #ffffff;
     width: 350px;
     padding: 35px;
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 .kaart h3 {
     color: #0f8b8f;
@@ -381,8 +489,8 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
-/*quote*/
 .quote {
+    /*citaat onderaan de pagina*/
     text-align: center;
     padding: 80px;
 }
@@ -391,6 +499,7 @@ text-align: center;
     color: rgb(15, 139, 143);
 }
 .contact-pagina {
+    /*indeling van de contact-pagina*/
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -399,6 +508,7 @@ text-align: center;
     background-color: #eef7f7;
 }
 .contact-info {
+    /*linkerkant met contactgegevens*/
     width: 40%;
 }
 .contact-info h1 {
@@ -412,6 +522,7 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .info-blok {
+    /*blok met telefoon, mal en locatie*/
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -431,6 +542,7 @@ text-align: center;
     font-size: 20px;
 }
 .contact-formulier {
+    /*formulier waar bezoekers berichten sturen*/
     width: 50%;
     background-color: #ffffff;
     padding: 50px;
@@ -439,12 +551,14 @@ text-align: center;
     margin-top: 65px;
 }
 .contact-formulier form {
+    /*zet alle invoervelden onder elkaar*/
     display: flex;
     /*zodat de gegevens blokken onder elkaar staan*/
     flex-direction: column;
     gap: 18px;
 }
 .contact-formulier input {
+    /*typen in de invoervelden*/
     padding: 15px;
     border: 1px solid #dcdcdc;
     border-radius: 12px;
@@ -452,6 +566,7 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 contact-formulier textarea {
+    /*stijl van het tekstvlak*/
     padding: 15px;
     border: 1px solid #dcdcdc;
     border-radius: 12px;
@@ -469,6 +584,7 @@ contact-formulier textarea {
     border-color: #0f8b8f;
 }
 .contact-formulier button {
+    /*verzendknop van het formulier*/
     background-color: #0f8b8f;
     color: #ffffff;
     border: none;
@@ -482,6 +598,7 @@ contact-formulier textarea {
     background-color: #065154;
 }
 .icon {
+    /*ronde icoontjes bij de contact-informatie*/
     width: 60px;
     height: 60px;
     background-color: #0f8b8f;

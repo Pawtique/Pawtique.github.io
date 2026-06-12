@@ -1,76 +1,105 @@
 <!DOCTYPE html>
 <head>
+    <!--tiel van de website in het tabblad-->
 <title>Pawtique.com</title>
+<!--verbindt de HTML met het CSS bestand-->
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<header>
-
-</header>
+    <!--navigatiebalk-->
 <nav>
+    <!--logo van de website-->
      <div class="logo">🐾Pawtique</div>
+     <!--menu met links naar andere paginas-->
     <ul>
         <li>
+            <!--link naar de home pagina-->
             <a href="index.html">Home</a>
         </li>
         <li>
+            <!--link naar de dieren pagina-->
             <a href="pagina2.html">Dieren</a>
         </li>
         <li>
+            <!--link naar de over-ons pagina-->
             <a href="pagina3.html">Over ons</a>
         </li>
         <li>
+            <!--link naar de contact pagina-->
             <a id="actief" href="pagina4.html">Contact</a>
         </li>
     </ul>
 </nav>
+<!--contactpagina met contactgegevens en formulier-->
 <div class="contact-pagina">
+    <!--linkerkant met contactinformatie-->
     <div class="contact-info">
+        <!--hoofdtitel van de contactpagina-->
         <h1>Contacteer ons 🐾</h1>
+        <!--korte uitleg voor bezoekers-->
         <p>Heb je vragen over adoptie, een dier dat je hebt gezien of wil je meer informatie?
             Neem gerust contact met ons op. Wij helpen je graag verder
         </p>
+        <!--adresgegevens-->
         <div class="info-blok">
+            <!--icoon van locatie-->
             <div class="icon">⚲</div> 
+            <!--tekst met adres-->
             <div class="info-tekst">
             <h3>Adres</h3>
             <p>Stationsweg 12 <br>5211 AA Den Bosch</p>
             </div>
         </div>
+        <!--email-adres-->
         <div class="info-blok">
+            <!--icoon van email-->
             <div class="icon">✉</div>
+            <!--tekst met email-adres-->
             <div class="info-tekst">
             <h3>E-mail</h3>
             <p>info@Pawtique.nl</p>
             </div>
         </div>
+        <!--telefoonnummer-->
         <div class="info-blok">
+            <!--icoon van telefoon-->
             <div class="icon">☎</div>
+            <!--tekst met telefoonnummer-->
             <div class="info-tekst">
             <h3>Telefoon</h3>
             <p>+31 6 12345678</p>
             </div>
         </div>
+        <!--openingstijden-->
         <div class="info-blok">
+            <!--icoon van tijd-->
             <div class="icon">◴</div>
+            <!--tekst met openingstijde -->
             <div class="info-tekst">
             <h3> Openingstijden</h3>
             <p>Ma - Vr : 09:00 - 17-00</p>
             </div>
         </div>
     </div>
+    <!--rechterkant met contactformulier-->
     <div class="contact-formulier">
+        <!--formulier voor het versturen van een bericht-->
         <form>
             <!--input type zodat je erin kan typen-->
             <!--placeholder is wat de bezoeker ziet en gaat weg als je erin typt-->
+            <!--invoerveld voor voornaam-->
             <input type="text" placeholder="Voornaam" required>
+            <!--invoerveld voor achernaam-->
             <input type="text" placeholder="Achternaam" required>
+            <!--invoerveld voor emailadres-->
             <input type="email" placeholder="E-mailadres" required>
+            <!--invoerveld voor telefoonnummer-->
             <input type="tel" placeholder="Telefoonnummer" required>
             <!--textarea is een langer tekst-->
             <!--rows is hoe hoog de textarea standaard is-->
+            <!--groot tekstvak voor een bericht-->
             <textarea placeholder="Typ hier je bericht..." rows="6"></textarea>
-            <!--knop met button die niks doet totdat jij er zelf iets aan koppelt met javaScript-->
+            <!--knop om het formulier te verzenden-->
             <button type="submit">Verstuur bericht</button>
         </form>
     </div>
